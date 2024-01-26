@@ -12,11 +12,12 @@
 
 // const age = prompt ("quanti anni hai?")
 
-const age = 66;
+const age = Number( prompt("quanti anni hai?"));
+
 
 const costPromile= 0.21;
 
-const km = 100;
+const km = Number ( prompt("indica la distanza in kilometri"));
 
 let sum = km * costPromile;
 
@@ -42,11 +43,11 @@ if (age > DiscountAge2){
 
 
 
+document.getElementById("result").innerHTML = `Il costo del Biglietto è ${sum.toFixed(2)} `
 
-document.getElementById("result").innerHTML = `Il costo del Biglietto è ${sum} `
 
 
-console.log(sum);
+
 
 
 
