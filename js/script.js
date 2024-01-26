@@ -8,9 +8,7 @@
 
 // va applicato uno sconto del 40% per gli over 65.
 
-// 
 
-// const age = prompt ("quanti anni hai?")
 
 const age = Number( prompt("quanti anni hai?"));
 
@@ -41,9 +39,16 @@ if (age > DiscountAge2){
     sum = sum - (sum * 40 / 100);
 }
 
+document.getElementById("distance").innerHTML = `La distanza selezionata è ${km} `;
+
+document.getElementById("age").innerHTML = `La tua età è ${age} `;
+
+document.getElementById("result").innerHTML = `Il costo del Biglietto è ${sum.toFixed(2)} `;
 
 
-document.getElementById("result").innerHTML = `Il costo del Biglietto è ${sum.toFixed(2)} `
+
+
+
 
 
 
