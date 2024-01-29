@@ -12,6 +12,9 @@
 
 const age = Number( prompt("quanti anni hai?"));
 
+if age {
+    
+}
 
 const costPromile= 0.21;
 
