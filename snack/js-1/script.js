@@ -5,5 +5,19 @@
 //  Visualizza la temperatura convertita.
 
 
+// const temp = Number(prompt);
+
+const temp = Number(prompt());
+
+
+
+
+
+function CassOne( temp ) {
+    return ((temp * 9.0 / 5.0) + 32.0);
+}
+
+document.getElementById("result").innerHTML = `Questi sono i tuo gradi ${CassOne(temp)}`
+
 
 
